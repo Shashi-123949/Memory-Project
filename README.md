@@ -120,10 +120,6 @@ mem_intr.sv – Acts as the driver (interface) that drives signals to the DUT.
 
 mem_mon.sv – Monitor to capture DUT responses and forward them to analysis components.
 
-# 11.Scoreboard
-
-mem_sbd.sv – Compares expected results with actual DUT outputs to ensure correctness.
-
 # 12.Test
 
 mem_test.sv – Defines the overall test, configures the environment, and controls sequence execution.
