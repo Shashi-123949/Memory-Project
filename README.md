@@ -108,12 +108,6 @@ Testbench Components (UVM Environment):
 
 mem_tx.sv – Defines the memory transaction (sequence item) containing fields like address, data, operation type (read/write).
 
-# 9.Sequence & Sequencer
-
-mem_sequence.sv – Generates different read/write stimulus sequences.
-
-mem_sqr.sv – Sequencer that controls the flow of sequence items to the driver.
-
 # 10.Driver & Monitor
 
 mem_intr.sv – Acts as the driver (interface) that drives signals to the DUT.
